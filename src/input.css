@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+.awards{
+    background-image: url("../public/aboutUs/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #C0D6ED;
+}
+
+.banner{
+    background-image: url("../public/home/banner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #C0D6ED;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bottomBanner{
+    background-image: url("../public/home/bottomBannerr.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #C0D6ED;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.w-override{
+    max-width: 650px !important;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+  }
+
+
+  .border-top-radius{
+    border-top-right-radius: 20px;
+  }
